@@ -24,9 +24,6 @@
                     <a href="#skills">
                         <li>Skills</li>
                     </a>
-                    <a href="#experience">
-                        <li>Experience</li>
-                    </a>
                     <a href="#projects">
                         <li>Projects</li>
                     </a>
@@ -59,79 +56,13 @@
             </ul>
         </section>
 
-        <section id="experience" class="container">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>QA Automation Engineer</h3>
-                <p><strong>Company:</strong> Altooro (2021-2024)</p>
-                <p>Automated testing processes, ensuring top-notch software quality for diverse products.</p>
-            </div>
-            <div class="job">
-                <h3>Senior Mentor and Team Lead</h3>
-                <p><strong>Company:</strong> Loop (2019-Present)</p>
-                <p>Mentoring students in computer science, fostering growth and innovation.</p>
-            </div>
-        </section>
-
         <section id="projects" class="container">
 
             <h2>Projects</h2>
             <div class="slide-container swiper">
                 <div class="slide-content">
-                    <div class="card-wrapper swiper-wrapper">
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="assets/flight-finder.webp" alt=""
-                                        class="card-img">
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Flight Finder</h2>
-                                <p class="description">A user-friendly platform to find the best flights for your trip. Simply enter your departure, destination, and trip duration, and the app suggests the cheapest travel dates and estimated costs.</p>
-
-                                <a class="button" href="https://ruby-handy-iridium.glitch.me/" target="_blank">Visit Website</a>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="assets/flight-finder.webp" alt=""
-                                        class="card-img">
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Wordle Clone</h2>
-                                <p class="description">This project is a clone of the popular word-guessing game Wordle. It challenges users to guess a five-letter word within six attempts.</p>
-                                <br>
-                                <a class="button" href="https://fifth-fresh-ketch.glitch.me/" target="_blank">Visit Website</a>
-                            </div>
-                        </div>
-                        <div class="card swiper-slide">
-                            <div class="image-content">
-                                <span class="overlay"></span>
-
-                                <div class="card-image">
-                                    <img src="assets/wordle.png" alt=""
-                                        class="card-img" >
-                                </div>
-                            </div>
-
-                            <div class="card-content">
-                                <h2 class="name">Flight Finder 3</h2>
-                                <p class="description">A user-friendly platform to find the best flights for your trip. Simply enter your departure, destination, and trip duration, and the app suggests the cheapest travel dates and estimated costs.</p>
-                                <div class="slider-buttons">
-                                    <a class="button" href="https://ruby-handy-iridium.glitch.me/" target="_blank">Visit Website</a>
-                                    <img src="assets/github-icon.png" alt="" width="50px">
-                                </div>
-                            </div>
-                        </div>
+                    <div id="cards-div" class="card-wrapper swiper-wrapper">
+                        <!-- Cards -->
                     </div>
                 </div>
 
@@ -162,7 +93,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Julian Emran. All Rights Reserved.</p>
+            <p>&copy; <span id="currYear"></span> Julian Emran. All Rights Reserved.</p>
         </div>
     </footer>
 </body>
