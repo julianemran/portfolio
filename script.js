@@ -86,6 +86,14 @@ function createCard(imageSrc, altText, title, description, websiteLink, githubLi
 }
 const cardsData = [
     {
+        "imageSrc": "assets/automation-icon-test.png",
+        "altText": "Ebay Testing Framework",
+        "title": "Ebay Testing Framework",
+        "description": "A robust automation testing framework designed to validate key features and user workflows on eBay, focusing on a limited set of functionalities of eBay's website.",
+        "websiteLink": "https://julianemran.github.io/ebay-testing",
+        "githubLink": "https://github.com/julianemran/ebay-testing"
+    },
+    {
         "imageSrc": "assets/flight-finder.webp",
         "altText": "Flight Finder",
         "title": "Flight Finder",
